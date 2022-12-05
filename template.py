@@ -43,7 +43,7 @@ class appname:
 if __name__=="__main__":
     
     import argparse
-    parser=argparse.ArgumentParser
+    parser=argparse.ArgumentParser()
     parser.add_argument('--logs_enabled', help='enable log collection for this plugin application',default="False")
     parser.add_argument('--log_type_name', help='Display name of the log type', nargs='?', default=None)
     parser.add_argument('--log_file_path', help='list of comma separated log file paths', nargs='?', default=None)
